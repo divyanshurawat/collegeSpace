@@ -30,7 +30,7 @@ exports.onUserCreateInCollection = functions.firestore
 
     // User can have there own logic for admin
 
-    if (user.email && user.email.indexOf("@hathtech.com") !== -1) {
+    if (user.email && user.email.indexOf("@stalkme.com") !== -1) {
       customClaims = {
         "https://hasura.io/jwt/claims": {
           "x-hasura-default-role": "admin",

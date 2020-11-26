@@ -67,13 +67,12 @@ flutter:
     - assets/icons/log.png
     - assets/icons/video.png
     - assets/icons/stores.png
-    - assets/icons/orders.png
-    - assets/icons/referrals.png
-    - assets/icons/support.png
+
+
     - assets/icons/person.png
     - assets/icons/menu.png
-    - assets/icons/instore.png
-    - assets/icons/wallet.png
+
+
     - assets/icons/featured.png
     - assets/icons/fb.png
     - assets/icons/google.png
