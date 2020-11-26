@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+
+
+  <title>Poly Notes</title>
+  <meta name="google-signin-client_id" content="350921591359-a3bamqjshni04qp4h5seab197f298qsl.apps.googleusercontent.com">
+  <link rel="shortcut icon" type="image/png" href="favicon.png" />
+</head>
+<body>
+
+<!-- The core Firebase JS SDK (always required for using any firebase service) -->
+<!-- Firebase Auth SDK -->
+<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.22.0/firebase-app.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/7.22.0/firebase-analytics.js"></script>
+
+<script>
+
+  var firebaseConfig = {
+    apiKey: "AIzaSyCgrLhWLIcKifThrV3ib8RWqYeyrEA-osw",
+    authDomain: "poly-notes-b8371.firebaseapp.com",
+    databaseURL: "https://poly-notes-b8371.firebaseio.com",
+    projectId: "poly-notes-b8371",
+    storageBucket: "poly-notes-b8371.appspot.com",
+    messagingSenderId: "350921591359",
+    appId: "1:350921591359:web:cf850a0e043ac882ff068a",
+    measurementId: "G-VHFPKBNPN6"
+  };
+
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+<script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", function () {
+          navigator.serviceWorker.register("flutter_service_worker.js");
+        });
+      }
+    </script>
+
+
+<script src="main.dart.js?version=1" type="application/javascript"></script>
+
+</body>
+</html>
